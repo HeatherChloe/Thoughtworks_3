@@ -17,7 +17,7 @@ function calculate_median(arr) {
     }else{
         rst = arr_even[len/2-0.5];
     }
-    alert(rst);
+    return rst;
 }
 
 module.exports = calculate_median;
